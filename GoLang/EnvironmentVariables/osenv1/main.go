@@ -24,7 +24,7 @@ func main() {
 	fmt.Printf("After unset, Site Title: %s\n", os.Getenv("SITE_TITLE"))
 
 	/*
-	   Checking that an environment variable is present or not.
+	   Checking that an environment variable is present or  not.
 	*/
 	redisHost, ok := os.LookupEnv("REDIS_HOST")
 	if !ok {
